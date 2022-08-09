@@ -6,7 +6,13 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 0px 200px 0px;
 }
 .aku {
     text-align: center;
+}
+button {
+    width: 100%;
+    height: 42px;
+    
 }
