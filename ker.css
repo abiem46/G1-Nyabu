@@ -10,3 +10,6 @@ h1 {
 .input-kuantitas {
     width: 119px;
 }
+.row {
+    padding: 10px 100px 25px 100px;
+}
