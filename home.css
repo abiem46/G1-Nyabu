@@ -10,23 +10,28 @@
     background-color: rgb(79, 207, 96);
   }
 
-span{
-    color: rgb(255, 255, 255);
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    
+  }
+  
+
+.body{
+    background-image: rgb(79, 207, 96);
+  }
+
+.allColor{
+  color: rgb(255, 255, 255);
 }
 
-#title_web {
-    color: rgb(97, 243, 30);
+/* SayurBuah */
+.card{
+  background-color: rgb(116, 212, 71);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.market{
-  color: rgb(227, 233, 215);
-}
-
-#nav-right{
-  padding-left: 5px;
-}
-
-.container{
-  margin-top: 55px;
-}
-
+ 
