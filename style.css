@@ -12,12 +12,21 @@
     background-image: rgb(79, 207, 96);
   }
 
-.best-product{
+/* .best-product{
   display: block;
   border-color:  rgb(79, 207, 96);
   border-width: 5px;
   border-spacing: 5px;
+} */
+
+.allColor{
+  color: rgb(255, 255, 255);
 }
 
+/* SayurBuah */
+.card{
+  background-color: rgb(116, 212, 71);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
  
