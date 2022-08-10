@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: rgb(49, 172, 59)
+}
+
+#container-profile{
+    display: block;
+    margin-left: 15%;
+    border-width: 2px;
+}
+
+
+#identitas{
+    border: double;
+    margin-left: 10%;
+    margin-right: 20%;
+    justify-content: space-around;
+    border-radius: 20px;
+    border-color: #147707;
+    border-width: 6px;
+    
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #49eb33
+}
+
+.profile-button {
+    background: rgb(221, 255, 224);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #49eb33
+}
+
+.profile-button:focus {
+    background: #49eb33;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #49eb33;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #49eb33;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}

@@ -3,29 +3,21 @@
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    display: block;
+    
   }
   
 
 .body{
-    background-color: rgb(79, 207, 96);
+    background-image: rgb(79, 207, 96);
   }
 
-span{
-    color: rgb(255, 255, 255);
+.best-product{
+  display: block;
+  border-color:  rgb(79, 207, 96);
+  border-width: 5px;
+  border-spacing: 5px;
 }
 
-#title_web {
-    color: rgb(97, 243, 30);
-}
 
-.market{
-  color: rgb(227, 233, 215);
-}
-
-#nav-right{
-  padding-left: 5px;
-}
-
-.container{
-  margin-top: 55px;
-}
+ 
