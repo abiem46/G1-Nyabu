@@ -1,37 +1,35 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  box-sizing: border-box;
   
+}
+
 
 .body{
-    background-color: rgb(79, 207, 96);
-  }
+  background-image: rgb(79, 207, 96);
+}
 
-  *{
-    padding: 0;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-    display: block;
-    
-  }
-  
+.deskripsi{
+ font-size: large;
 
-.body{
-    background-image: rgb(79, 207, 96);
-  }
+}
+
+.container{
+border: none;
+justify-content: space-around;
+
+}
 
 .allColor{
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 }
 
 /* SayurBuah */
 .card{
-  background-color: rgb(116, 212, 71);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: rgb(116, 212, 71);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
- 
+

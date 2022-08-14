@@ -1,9 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: monospace;
     box-sizing: border-box;
-    display: block;
     
   }
   
@@ -12,12 +11,16 @@
     background-image: rgb(79, 207, 96);
   }
 
-/* .best-product{
-  display: block;
-  border-color:  rgb(79, 207, 96);
-  border-width: 5px;
-  border-spacing: 5px;
-} */
+.deskripsi{
+   font-size: large;
+
+}
+
+.container{
+  border: none;
+  justify-content: space-around;
+
+}
 
 .allColor{
   color: rgb(255, 255, 255);
