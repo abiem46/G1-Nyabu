@@ -10,7 +10,7 @@ fetch('https://aromatic-discovered-television.glitch.me/sayur')
     <div class="col-12 col-lg-3 col-md-4">
         <div class="card h-100">
             <img src=${sayur.Photo}
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="..." weight="100" height="200">
             <div class="card-body text-center">
                 <h5 class="card-title ">${sayur.name}</h5>
                 <p class="card-text">${sayur.price}</p>
