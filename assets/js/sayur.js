@@ -40,5 +40,5 @@ fetch('https://aromatic-discovered-television.glitch.me/sayur')
         cartSayurButtons.forEach((button) => {
           button.addEventListener("click", (e) => addToCartSayur(button.id));
         });
-    })
-    .catch((error) => console.log(error))
+    });
+    // .catch((error) => console.log(error))
