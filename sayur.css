@@ -1,3 +1,7 @@
+body {
+  background-color: #D2B48C !important;
+}
+
 .navbar{
     background-image: url(assets/kayu1.jpg);
     max-width: 100%;
@@ -15,14 +19,18 @@
   
   }
   
-  .current-page:hover{
-    color :rgb(0, 0, 0) !important;
-    transition: 0.4s;
-    background-color:#D2B48C;
-  }
+.current-page:hover{
+  color :rgb(0, 0, 0) !important;
+  transition: 0.4s;
+  background-color:#D2B48C;
+}
 
-  .warna-button{
-    background-color: #A0522D !important;
-    color: aliceblue !important;
-  }
+.warna-button{
+  background-color: #A0522D !important;
+  color: aliceblue !important;
+}
+
+#footer{
+    background-color: #D2B48C !important;
+}
     
