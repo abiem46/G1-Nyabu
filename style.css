@@ -1,19 +1,43 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     
   }
   
 
-.body{
-    background-image: rgb(79, 207, 96);
-  }
-
 .deskripsi{
    font-size: large;
+}
 
+.slide{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navbar{
+  background-image: url(assets/kayu1.jpg);
+  max-width: 100%;
+}
+
+.current-page{
+  color :rgb(248, 248, 248) !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+
+}
+
+.current-page:hover{
+  color :rgb(0, 0, 0) !important;
+  transition: 0.4s;
+  background-color:#D2B48C;
 }
 
 .container{
