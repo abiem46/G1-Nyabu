@@ -6,6 +6,9 @@
   
 }
 
+body {
+  background-color: #D2B48C !important;
+}
 
 .deskripsi{
  font-size: large;
@@ -55,5 +58,10 @@ color: rgb(255, 255, 255);
 background-color: rgb(116, 212, 71);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#footer{
+  background-color: #D2B48C !important;
+}
+
 
 

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 body {
     background-color: #D2B48C !important;
 }
@@ -88,6 +89,10 @@ body {
   .warna-button{
     background-color: #A0522D !important;
     color: aliceblue !important;
+ }
+
+#footer{
+    background-color: #D2B48C !important;
  }
     
   

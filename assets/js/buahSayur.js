@@ -34,7 +34,7 @@ fetch('https://aromatic-discovered-television.glitch.me/buah_sayur')
         <div class="col-12 col-lg-3 col-md-4">
         <div class="card h-100">
             <img src=${mix.Photo}
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="..." weight="100" height="200">
             <div class="card-body text-center">
                 <h5 class="card-title ">${mix.name}</h5>
                 <p class="card-text">${mix.price}</p>
