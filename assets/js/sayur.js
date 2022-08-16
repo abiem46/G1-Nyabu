@@ -1,15 +1,27 @@
 let containerSayur = document.getElementById("container-sayur")
 let ModalcontainerSayur = document.getElementById("daftar-sayur");
 let cartSayur = [];
+const isiLSCartSayur = localStorage.getItem("cartsayur");
+let login = false;
 // console.log(containerSayur)
 let addToCartSayur = (id) => {
-    let objectSayurLocalStorage = JSON.parse(localStorage.getItem("sayur")); // ngambil dari local storage dengan key sayur
-    let foundSayur = objectSayurLocalStorage.find((sayur) => {
-      return sayur.id === Number(id);
-    });
-    cartSayur.push(foundSayur);
-    localStorage.setItem("cart-sayur", JSON.stringify(cartSayur));
-  };
+    let found = localStorage.getItem("login");
+    if (found) {
+        let objectSayurLocalStorage = JSON.parse(localStorage.getItem("sayur")); // ngambil dari local storage dengan key sayur
+        let foundSayur = objectSayurLocalStorage.find((sayur) => {
+            return sayur.id === Number(id);
+        });
+
+        if (isiLSCartSayur === null) {
+            cartSayur.push(foundSayur);
+            localStorage.setItem("cartsayur", JSON.stringify(cartSayur));
+        } else {
+            cartSayur = JSON.parse(isiLSCartSayur);
+            cartSayur.push(foundSayur);
+            localStorage.setItem("cart-sayur", JSON.stringify(cartSayur));
+        }
+    }
+}
 
 fetch('https://aromatic-discovered-television.glitch.me/sayur')
     .then((response) => response.json())
@@ -21,7 +33,7 @@ fetch('https://aromatic-discovered-television.glitch.me/sayur')
     <div class="col-12 col-lg-3 col-md-4">
         <div class="card h-100">
             <img src=${sayur.Photo}
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="..." weight="100" height="200">
             <div class="card-body text-center">
                 <h5 class="card-title ">${sayur.name}</h5>
                 <p class="card-text">${sayur.price}</p>
@@ -38,7 +50,7 @@ fetch('https://aromatic-discovered-television.glitch.me/sayur')
         });
         let cartSayurButtons = document.querySelectorAll(".buttonSayur");
         cartSayurButtons.forEach((button) => {
-          button.addEventListener("click", (e) => addToCartSayur(button.id));
+            button.addEventListener("click", (e) => addToCartSayur(button.id));
         });
     });
-    // .catch((error) => console.log(error))
+// .catch((error) => console.log(error))
