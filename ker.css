@@ -36,4 +36,10 @@ h1 {
     transition: 0.4s;
     background-color:#D2B48C;
   }
+
+.warna-button{
+    background-color: #A0522D !important;
+    color: aliceblue !important;
+ }
+    
   
