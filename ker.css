@@ -1,3 +1,7 @@
+body {
+  background-color: #D2B48C !important;
+}
+
 .img {
     width: 170px;
     height: auto;
@@ -13,3 +17,48 @@ h1 {
 .row {
     padding: 10px 100px 25px 100px;
 }
+
+.navbar{
+    background-image: url(assets/kayu1.jpg);
+    max-width: 100%;
+  }
+
+.container-ker{
+  border:double;
+  border-width: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  background-color: #e9cfad;
+}
+
+.current-page{
+    color :rgb(248, 248, 248) !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+  
+  }
+  
+.current-page:hover{
+    color :rgb(0, 0, 0) !important;
+    transition: 0.4s;
+    background-color:#D2B48C;
+  }
+
+.warna-button{
+    background-color: #A0522D !important;
+    color: aliceblue !important;
+ }
+
+ #footer{
+  background-color: #D2B48C !important;
+  margin-top: 100px;
+}
+ 
+    
+  

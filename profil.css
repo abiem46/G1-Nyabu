@@ -4,14 +4,15 @@
     box-sizing: border-box;
     
 }
+
 body {
-    background: rgb(49, 172, 59)
+    background-color: #D2B48C !important;
 }
 
 #container-profile{
-    display: block;
+    /* display: block; */
     margin-left: 15%;
-    border-width: 2px;
+    border-width: 5px;
 }
 
 
@@ -21,8 +22,9 @@ body {
     margin-right: 20%;
     justify-content: space-around;
     border-radius: 20px;
-    border-color: #147707;
-    border-width: 6px;
+    border-color: #a77917;
+    border-width: 10px;
+    background-color:  #ebdac3;
     
 
 }
@@ -39,24 +41,58 @@ body {
 }
 
 .profile-button:hover {
-    background: #49eb33
+    background: #838107
 }
 
 .profile-button:focus {
-    background: #49eb33;
+    background: #a78a0b;
     box-shadow: none
 }
 
 .profile-button:active {
-    background: #49eb33;
+    background: #aa6806;
     box-shadow: none
 }
 
 .back:hover {
-    color: #49eb33;
+    color: #6e540a;
     cursor: pointer
 }
 
 .labels {
     font-size: 11px
 }
+
+.navbar{
+    background-image: url(assets/kayu1.jpg);
+    max-width: 100%;
+  }
+  
+  .current-page{
+    color :rgb(248, 248, 248) !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+  
+  }
+  
+  .current-page:hover{
+    color :rgb(0, 0, 0) !important;
+    transition: 0.4s;
+    background-color:#D2B48C;
+  }
+
+  .warna-button{
+    background-color: #A0522D !important;
+    color: aliceblue !important;
+ }
+
+#footer{
+    background-color: #D2B48C !important;
+ }
+    
+  

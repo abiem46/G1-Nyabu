@@ -15,21 +15,21 @@
 
 <body>
 
-  <!-- Navigasi Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+   <!-- Navigasi Bar -->
+   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">NYABU MARKET</a>
+      <a class="navbar-brand current-page" href="index.html">NyaBu-Market</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            <a class="nav-link active current-page" aria-current="page" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="buahSayur.html">List Produk</a>
+            <a class="nav-link current-page" href="buahSayur.html">List Produk</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -43,19 +43,20 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="profil.html">Profil Saya</a></li>
               <li><a class="dropdown-item" href="#">Log Out</a></li>
+
             </ul>
           </div>
         </form>
       </div>
     </div>
   </nav>
-
+<!-- Akhir Navigasi -->
 
   
 
 
   <!-- Profil User -->
-  <div class="container rounded bg-white mt-5 mb-5" id="container-profile">
+  <div class="container rounded mt-5 mb-5" id="container-profile">
     <div class="row" id="identitas">
 
       <!-- Upload Foto User -->
@@ -65,10 +66,10 @@
             <h4 class="text-right">Profile Saya</h4>
           </div>
           <img class="rounded-circle mt-3" width="150px"
-            src="https://e7.pngegg.com/pngimages/522/396/png-clipart-computer-icons-profile-miscellaneous-logo.png"><span
+            src="https://w1.pngwing.com/pngs/427/81/png-transparent-circle-user-kisumu-user-profile-directory-symbol-kisumu-county-yellow-thumbnail.png"><span
             class="font-weight-bold">Umi Uzlia</span><span class="text-black-50">umikirei12@gmail.com</span>
         </div>
-        <div class="text-center"> <button type="button" class="btn btn-success">Upload Foto Profil</button> </div>
+        <div class="text-center"> <button type="button" class="btn warna-button">Upload Foto Profil</button> </div>
       </div>
 
 
@@ -101,7 +102,7 @@
 
           </div>
           
-            <div class="mt-5 text-center"><button class="btn btn-success profile-button" type="button">Simpan
+            <div class="mt-5 text-center"><button class="btn warna-button profile-button" type="button">Simpan
               Profile</button></div>
         </div>
       </div>
@@ -112,7 +113,7 @@
 
 
   <!-- Footer -->
-  <footer class="text-center text-lg-start bg-white text-muted">
+  <footer class="text-center text-lg-start bg-white text-muted" id="footer">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     </section>
 
@@ -121,17 +122,19 @@
         <div class="row mt-3">
 
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">
-              Profil
-            </h6>
+            <a href="profilkelompok.html">
+              <h6 class="text-reset fw-bold mb-4">Profil Kelompok</h6>
+            </a>
           </div>
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">
-              Contact Us
-            </h6>
+            <a href="kontak.html">
+              <h6 class="text-reset fw-bold mb-4">Kontak</h6>
+            </a>
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4">About</h6>
+            <a href="about.html">
+              <h6 class="text-reset fw-bold mb-4">About</h6>
+            </a>
           </div>
         </div>
       </div>
